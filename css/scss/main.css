@@ -1,0 +1,281 @@
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.42857;
+  letter-spacing: 2px;
+  color: #606f81; }
+  body a {
+    text-decoration: none; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green; }
+
+.hidden {
+  display: none; }
+
+h1 {
+  color: #ffffff;
+  font-size: 3.9em;
+  letter-spacing: 0.5em;
+  font-weight: 500;
+  letter-spacing: 6px; }
+
+h2 {
+  padding-top: 5%;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: 500;
+  margin-bottom: 75px; }
+  h2 span {
+    text-transform: uppercase; }
+
+h4 {
+  padding-top: 10%;
+  font-size: 165%;
+  font-weight: 500; }
+
+span {
+  color: #ed6950; }
+
+button {
+  background-color: #ffc74a;
+  border-radius: 17px;
+  border: none;
+  color: #bd6708;
+  padding: 10px 13px;
+  font-size: 0.8em;
+  font-weight: 500;
+  text-transform: uppercase; }
+  button:hover {
+    background-color: #bd6708;
+    transition: background .9s;
+    color: #ffc74a; }
+
+section,
+.main_head {
+  position: relative; }
+
+.main_head {
+  min-height: 620px;
+  background: rgba(0, 0, 0, 0.77); }
+
+.loader {
+  background: none repeat scroll 0 0 #ffffff;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999; }
+  .loader .loader_inner {
+    background-image: url("http://www.inpris.co//wp-content/uploads/2016/07/loading-circles.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center     center;
+    background-color: #fff;
+    height: 150px;
+    width: 150px;
+    margin-top: -30px;
+    margin-left: -30px;
+    left: 47%;
+    top: 43%;
+    position: absolute; }
+
+.logo_container {
+  padding-top: 30px;
+  float: left; }
+
+.menu_container {
+  padding-top: 48px;
+  float: right;
+  position: absolute;
+  z-index: 20;
+  margin-left: 38%;
+  font-size: 1.3em;
+  top: 1%; }
+  .menu_container ul li {
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-weight: 500; }
+    .menu_container ul li a {
+      color: #ffffff;
+      padding-left: 2em;
+      text-decoration: none; }
+      .menu_container ul li a:hover {
+        color: #ed6950; }
+    .menu_container ul li img {
+      width: 15px; }
+
+.top_wrapper {
+  display: table;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+  .top_wrapper .top_descr {
+    display: table-row; }
+    .top_wrapper .top_descr .top_centered {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle; }
+  .top_wrapper .top_text {
+    display: inline-block; }
+    .top_wrapper .top_text p {
+      color: #a99a9a;
+      font-size: 1.4em;
+      letter-spacing: 1px;
+      padding-top: 4%; }
+    .top_wrapper .top_text button {
+      margin-top: 7%; }
+      .top_wrapper .top_text button a {
+        color: #bd6708; }
+
+.search_place p {
+  position: relative; }
+  .search_place p img {
+    position: absolute;
+    top: 26%;
+    right: 31%; }
+  .search_place p input {
+    width: 40%;
+    margin-left: 30%;
+    height: 33px;
+    border-radius: 18px;
+    border: 1px solid lightgrey;
+    padding-left: 1%; }
+.search_place button {
+  padding: 4px 6px; }
+
+.s_where {
+  background-color: #f2f2f3; }
+  .s_where button {
+    font-size: 0.6em;
+    margin-top: none;
+    color: #ffffff; }
+
+.right_btns {
+  position: absolute;
+  left: 57%; }
+  .right_btns button {
+    background-color: #f2f2f3;
+    border: 1px solid lightgrey;
+    color: grey; }
+
+.left_btns {
+  text-align: right;
+  position: absolute;
+  right: 58%; }
+  .left_btns button {
+    background-color: #bdc8d9; }
+
+.right_btns button, .left_btns button {
+  margin-top: 7px; }
+  .right_btns button:hover, .left_btns button:hover {
+    background-color: orange; }
+
+.picture_gallery {
+  margin: 10% auto;
+  text-align: center; }
+  .picture_gallery .pict_wrapp {
+    margin: 1% 4%;
+    padding: 1% 1%;
+    background-color: #ffffff;
+    border-radius: 3px;
+    cursor: pointer; }
+    .picture_gallery .pict_wrapp img {
+      border-radius: 5px;
+      filter: brightness(50%); }
+      .picture_gallery .pict_wrapp img:hover {
+        filter: brightness(95%);
+        transition: all 0.5s ease-in-out; }
+    .picture_gallery .pict_wrapp button {
+      background-color: #f2f2f3;
+      border: 1px solid #e6e5e5;
+      color: #ed6950; }
+      .picture_gallery .pict_wrapp button:hover {
+        background-color: #ffc74a; }
+    .picture_gallery .pict_wrapp .descr_picture {
+      padding-top: 1%; }
+    .picture_gallery .pict_wrapp button {
+      margin-top: 5%;
+      letter-spacing: 1px;
+      font-weight: 500;
+      font-size: 68%; }
+
+.s_city {
+  padding-bottom: 85px; }
+  .s_city h5 {
+    color: #ffc74a;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 6% 0; }
+  .s_city p {
+    font-size: 16px; }
+  .s_city img {
+    box-sizing: border-box;
+    border: 10px solid #ffc74a;
+    border-radius: 3px; }
+  .s_city button {
+    margin-top: 15%;
+    padding: 13px 33px; }
+  .s_city .s_city_left {
+    float: left; }
+  .s_city .s_city_right {
+    float: right; }
+
+.enjoy {
+  position: relative;
+  min-height: 620px;
+  background: rgba(0, 0, 0, 0.77); }
+
+.enjoy_wrapper {
+  display: table;
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  z-index: 10; }
+  .enjoy_wrapper .enjoy_descr {
+    display: table-row; }
+    .enjoy_wrapper .enjoy_descr .enjoy_centered {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle; }
+  .enjoy_wrapper .enjoy_text {
+    display: inline-block; }
+    .enjoy_wrapper .enjoy_text h3 {
+      font-size: 72px;
+      color: #ffffff;
+      font-weight: 500; }
+    .enjoy_wrapper .enjoy_text p {
+      color: #f1eded;
+      font-size: 1.4em;
+      letter-spacing: 1px;
+      padding-top: 4%; }
+    .enjoy_wrapper .enjoy_text button {
+      margin-top: 7%;
+      margin-top: 7%;
+      padding: 10px 31px;
+      font-size: 14px; }
+    .enjoy_wrapper .enjoy_text a {
+      color: #ffc74a;
+      font-weight: 500; }
+
+.footer_content {
+  margin: 10% auto;
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
